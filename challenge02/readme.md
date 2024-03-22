@@ -1,5 +1,4 @@
-counter的值可能是2，也可能是3
-输出内容如下：
+for range map是无序的，如果第一次循环到A，counter的值等于3，否则等于2
 ```bash
 ❯ go run main.go
 C 23
@@ -11,4 +10,3 @@ B 22
 C 23
 3
 ```
-for range map是无序的，如果第一次循环到A，则输出3，否则输出2
